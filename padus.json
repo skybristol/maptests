@@ -29,7 +29,7 @@
         },
         {
           "name": "Protected Areas by Manager Type",
-          "isEnabled": true,
+          "isEnabled": false,
           "type": "esri-mapServer",
           "url": "http://gis1.usgs.gov/arcgis/rest/services/padus_14_draft/manager_type/MapServer",
           "attribution": {
@@ -40,7 +40,7 @@
         },
         {
           "name": "Protected Areas by GAP Status Code",
-          "isEnabled": true,
+          "isEnabled": false,
           "type": "esri-mapServer",
           "url": "http://gis1.usgs.gov/arcgis/rest/services/padus_14_draft/gap_status_code/MapServer",
           "attribution": {
@@ -51,7 +51,7 @@
         },
         {
           "name": "Protected Areas by Public Access",
-          "isEnabled": true,
+          "isEnabled": false,
           "type": "esri-mapServer",
           "url": "http://gis1.usgs.gov/arcgis/rest/services/padus_14_draft/public_access/MapServer",
           "attribution": {
