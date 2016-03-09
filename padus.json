@@ -1,0 +1,66 @@
+{
+  "corsDomains": [
+    "usgs.gov"
+  ],
+  "homeCamera": {
+    "west": -160,
+    "south": -20,
+    "east": -30,
+    "north": 60
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "catalog": [
+    {
+      "name": "Protected Areas Database of the US",
+      "isOpen": true,
+      "type": "group",
+      "items": [
+        {
+          "name": "Protected Areas by Agency Name",
+          "isEnabled": true,
+          "type": "esri-mapServer",
+          "url": "http://gis1.usgs.gov/arcgis/rest/services/padus_14_draft/agency_name/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
+        },
+        {
+          "name": "Protected Areas by Manager Type",
+          "isEnabled": true,
+          "type": "esri-mapServer",
+          "url": "http://gis1.usgs.gov/arcgis/rest/services/padus_14_draft/manager_type/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
+        },
+        {
+          "name": "Protected Areas by GAP Status Code",
+          "isEnabled": true,
+          "type": "esri-mapServer",
+          "url": "http://gis1.usgs.gov/arcgis/rest/services/padus_14_draft/gap_status_code/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
+        },
+        {
+          "name": "Protected Areas by Public Access",
+          "isEnabled": true,
+          "type": "esri-mapServer",
+          "url": "http://gis1.usgs.gov/arcgis/rest/services/padus_14_draft/public_access/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
+        }
+      ]
+    }
+  ]
+}
