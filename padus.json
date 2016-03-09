@@ -20,7 +20,7 @@
           "name": "Protected Areas by Agency Name",
           "isEnabled": true,
           "type": "wms",
-          "url": "http://gis1.usgs.gov/arcgis/services/padus_14_draft/agency_name/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "url": "http://gis1.usgs.gov/arcgis/services/padus_14_draft/agency_name/MapServer",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
