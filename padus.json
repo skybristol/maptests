@@ -19,12 +19,13 @@
         {
           "name": "Protected Areas by Agency Name",
           "isEnabled": true,
-          "type": "wms",
+          "type": "esri-mapServer",
           "url": "http://gis1.usgs.gov/arcgis/rest/services/padus_14_draft/agency_name/MapServer",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
-          }
+          },
+          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
         },
         {
           "name": "Protected Areas by Manager Type",
@@ -34,7 +35,8 @@
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
-          }
+          },
+          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
         },
         {
           "name": "Protected Areas by GAP Status Code",
@@ -44,7 +46,8 @@
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
-          }
+          },
+          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
         },
         {
           "name": "Protected Areas by Public Access",
@@ -54,7 +57,8 @@
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
-          }
+          },
+          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
         }
       ]
     }
