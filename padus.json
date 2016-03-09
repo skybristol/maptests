@@ -1,7 +1,4 @@
 {
-  "corsDomains": [
-    "usgs.gov"
-  ],
   "homeCamera": {
     "west": -160,
     "south": 0,
@@ -24,8 +21,7 @@
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
-          },
-          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
+          }
         },
         {
           "name": "Protected Areas by Manager Type",
@@ -35,8 +31,7 @@
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
-          },
-          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
+          }
         },
         {
           "name": "Protected Areas by GAP Status Code",
@@ -46,8 +41,7 @@
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
-          },
-          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
+          }
         },
         {
           "name": "Protected Areas by Public Access",
@@ -57,8 +51,7 @@
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
-          },
-          "featureInfoTemplate": "Pixel colour: <b>Red={{Red}} Blue={{Blue}} Green={{Green}}</b>."
+          }
         }
       ]
     }
