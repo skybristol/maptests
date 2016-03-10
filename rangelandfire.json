@@ -1,0 +1,29 @@
+{
+  "homeCamera": {
+    "west": -160,
+    "south": 0,
+    "east": -30,
+    "north": 80
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "catalog": [
+    {
+      "name": "Rangeland Fire Secretarial Order (USGS)",
+      "isOpen": true,
+      "type": "group",
+      "items": [
+        {
+          "name": "Management Categories",
+          "isEnabled": true,
+          "type": "esri-mapServer",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/54889613e4b02acb4f0c91a9/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        }
+      ]
+    }
+  ]
+}
