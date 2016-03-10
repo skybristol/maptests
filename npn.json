@@ -14,10 +14,10 @@
       "type": "group",
       "items": [
         {
-          "name": "Average Leaf Prism",
+          "name": "Leaf Anomaly",
           "isEnabled": true,
-          "type": "wms",
-          "url": "http://geoserver.usanpn.org/geoserver/si-x/wms?service=WMS&version=1.1.0&request=GetMap&layers=si-x:average_leaf_prism",
+          "type": "kml",
+          "url": "http://geoserver.usanpn.org/geoserver/si-x/wms/kml?layers=si-x:leaf_anomaly_states",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
