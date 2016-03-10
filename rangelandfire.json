@@ -22,6 +22,16 @@
             "text": "USGS",
             "link": "http://www.usgs.gov"
           }
+        },
+        {
+          "name": "USGS NLCD Overlay Map Service",
+          "isEnabled": true,
+          "type": "wms",
+          "url": "http://raster.nationalmap.gov/arcgis/services/LandCover/USGS_EROS_LandCover_NLCD/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
         }
       ]
     }
