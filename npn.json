@@ -17,7 +17,7 @@
           "name": "Average Leaf Prism",
           "isEnabled": true,
           "type": "wms",
-          "url": "http://geoserver.usanpn.org/geoserver/si-x/wms?service=WMS&version=1.1.0&request=GetMap&layers=si-x:average_leaf_prism&styles=&bbox=-125.020833333333,24.0625,-66.479166666662,49.937500000002&width=768&height=339&srs=EPSG:4269",
+          "url": "http://geoserver.usanpn.org/geoserver/si-x/wms?service=WMS&version=1.1.0&request=GetMap&layers=si-x:average_leaf_prism",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
