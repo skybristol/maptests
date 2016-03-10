@@ -27,7 +27,7 @@
           "name": "USGS NLCD 2011",
           "isEnabled": false,
           "type": "esri-mapServer",
-          "url": "http://raster.nationalmap.gov/arcgis/rest/services/LandCover/USGS_EROS_LandCover_NLCD/MapServer/0",
+          "url": "http://raster.nationalmap.gov/arcgis/rest/services/LandCover/USGS_EROS_LandCover_NLCD/MapServer",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
