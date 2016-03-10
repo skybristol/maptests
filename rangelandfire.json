@@ -24,10 +24,10 @@
           }
         },
         {
-          "name": "USGS NLCD Overlay Map Service",
-          "isEnabled": true,
-          "type": "wms",
-          "url": "http://raster.nationalmap.gov/arcgis/services/LandCover/USGS_EROS_LandCover_NLCD/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+          "name": "USGS NLCD 2011",
+          "isEnabled": false,
+          "type": "esri-mapServer",
+          "url": "http://raster.nationalmap.gov/arcgis/rest/services/LandCover/USGS_EROS_LandCover_NLCD/MapServer/0",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
